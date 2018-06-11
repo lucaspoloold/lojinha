@@ -12,3 +12,7 @@ pluggy==0.6.0
 py==1.5.3
 pytest==3.6.1
 six==1.11.0
+
+# Coverage
+coverage==4.5.1
+pytest-cov==2.5.1
