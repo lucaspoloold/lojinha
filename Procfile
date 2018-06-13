@@ -1,0 +1,1 @@
+web: gunicorn lojinha.wsgi --log-file -
