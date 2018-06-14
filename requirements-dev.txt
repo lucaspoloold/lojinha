@@ -16,3 +16,6 @@ six==1.11.0
 # Coverage
 coverage==4.5.1
 pytest-cov==2.5.1
+
+# pytest-django
+pytest-django==3.2.1
