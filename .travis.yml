@@ -6,6 +6,6 @@ install:
   - pip install -q -r requirements-dev.txt codecov
 script:
   - flake8 .
-  - pytest --cov=lojinha
+  - pytest --cov-branch --cov=lojinha
 after_success:
   - codecov
