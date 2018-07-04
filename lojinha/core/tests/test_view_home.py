@@ -11,7 +11,8 @@ def test_status_code(client):
 @pytest.mark.parametrize("content", [
     "Lojinha em construção",
     "2018",
-    "pradopolo@gmail.com"
+    "pradopolo@gmail.com",
+    "nav"
 ])
 def test_home(client, content):
     response = client.get('/')
